@@ -1,0 +1,68 @@
+import java.util Arraylist();
+import java.util HashMap();
+
+Class Program{
+
+
+
+void display(Object age){
+System.out.println("Age is:" +age);
+}
+
+void display(String name){
+System.out.println("Name is:" +name);
+}
+
+void display(double height, int id){
+System.out.println("Height is:" +height+ "Id is:" +id);
+}
+
+public static void main(String[] args){
+
+Program p=new Program();
+p.display(null);
+p.display("Tom");
+p.display(4.5,10);
+
+String a="shilpa"
+
+String b=new String ("shilpa")
+
+System.out.println(a.equals(b)) //true
+
+System.out.println(a==b)// false
+
+}
+
+}
+
+
+int[] a= new int[] {1,2,3,4,5}
+ 
+a[0]=1;
+a[1]=2;
+a[2]=3;
+a[3]=4;
+a[5]=5;
+Arraylist a = new Arraylist();
+
+a.add(1);
+a.add(2);
+a.add(3);
+a.add(4);
+a.add(5);
+
+HashMap h= new HashMap();
+h1.put(10,"tom");
+h2.put(20,"jack");
+h3.put(30,"java");
+
+
+for(int i=0; i<=n; i++){
+System.out.println(i);
+}
+
+Create Table Master;
+Number of Coumnns:2
+int id (primary key);
+Varchar email(not null);
